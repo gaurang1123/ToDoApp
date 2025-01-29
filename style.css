@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-color: #222;
+    color: antiquewhite;
+    text-align: center;
+}
+
+/* .container{
+    border: 3px solid red;
+} */
+.tasks{
+    background-color: rgb(221, 63, 200);
+    height: 85vh;
+    width: 100%;
+}
+.task{
+    /* width: 80%; */
+    margin-inline: auto;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.task p{
+    margin: 0;
+    word-wrap: break-word;
+    width: 80%;
+    text-align: left;
+    padding-inline: 5px;
+    margin-left: 10px;
+}
+
+.input-field input{
+    width: 50%;
+    padding-inline: 5px;
+}
+.input-field{
+    margin-bottom: 10px;
+}
